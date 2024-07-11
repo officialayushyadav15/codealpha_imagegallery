@@ -1,0 +1,101 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+    color: yellow;
+}
+.container .heading h3 span{
+    font-weight: 100;
+    color: white;
+}
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.container .box .c1{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .c1 img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.container .box .c1 img:hover{
+    transform: scale(1.1);
+}
+.container .btn{
+    margin: 40px 0 70px 0;
+    background: black;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.container .btn a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 769px){
+    .container .box{
+        flex-direction: column;
+    }
+    .container .box .c1{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 690px){
+    .container .heading{
+        width: 50%;
+    }
+    .container .heading h3{
+        font-size: 1em;
+    }
+}
+.fullimg{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.fullimg img{
+    width: 90%;
+    max-width: 700px;
+}
+.fullimg span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
