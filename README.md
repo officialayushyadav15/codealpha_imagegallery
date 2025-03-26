@@ -8,4 +8,4 @@ Welcome to **Image Gallery** – a website that brings my ideas on image galleri
 
 
 
- ![Original](image.jpg) 
+ ![Original](output.mp4) 
