@@ -7,5 +7,3 @@ Welcome to **Image Gallery** – a website that brings my ideas on image galleri
 
 
 
-https://github.com/user-attachments/assets/594befec-312f-479c-9cf1-34b8113c4981
-
